@@ -1,0 +1,14 @@
+frequency = {}
+s = input().lower().split()
+
+for word in s:
+    count = frequency.get(word, 0)
+    frequency[word] = count + 1
+
+frequency_list = frequency.keys()
+
+# print(frequency)
+# print(frequency_list)
+
+for words in frequency_list:
+    print(words, frequency[words])
