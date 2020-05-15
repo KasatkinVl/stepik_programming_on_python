@@ -3,7 +3,7 @@ import requests
 with open('C:\\Users\\User\\Downloads\\file.txt', encoding='utf-8') as text:
     url = text.readline().strip()
 
-r = requests_exercise.get(url)
+r = requests.get(url)
 text = r.text.splitlines()
 
 
