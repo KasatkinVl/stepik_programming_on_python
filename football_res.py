@@ -11,8 +11,6 @@ for i in range(len(match_list)):
     big_dic[match_list[i][0]] = [count_of_games, wins, draws, loses, total]
     big_dic[match_list[i][2]] = [count_of_games, wins, draws, loses, total]
 
-
-
 for i in range(len(match_list)):
 
     if int(match_list[i][1]) > int(match_list[i][3]):
